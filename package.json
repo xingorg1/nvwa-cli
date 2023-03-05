@@ -1,0 +1,31 @@
+{
+  "name": "nvwa-cli",
+  "version": "0.0.1",
+  "description": "nvwa，创世神女娲，补天造人。小石头的斧子宇宙之 nvwa-cli 脚手架",
+  "main": "index.js",
+  "bin": "bin/index.js",
+  "scripts": {
+    "start": "node bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingorg1/nvwa-cli.git"
+  },
+  "keywords": [
+    "axe",
+    "cli",
+    "nvwa"
+  ],
+  "author": "xingorg1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xingorg1/nvwa-cli/issues"
+  },
+  "homepage": "https://github.com/xingorg1/nvwa-cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "ejs": "^3.1.8",
+    "inquirer": "^8.2.5"
+  }
+}
